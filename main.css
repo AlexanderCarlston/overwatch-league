@@ -2,7 +2,7 @@ body{
     margin: 0px;
 }
 /* Top Navbar */
-ul {
+.topNavbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -25,19 +25,34 @@ li a {
 li a:hover {
     color: #FFFFFF;
 }
+
 .logo {
     height: 45px;
 }
+
 .accountItems {
     float:right;
 }
 /* Top Navbar */
 
 /* Bottom Navbar */
+.bottomNavbar {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
 .background {
     background-image: url("./assets/Background.jpg");
     height: 800px;
     width: 100vw;
     background-repeat: no-repeat;
+    position: absolute;
+}
+.leagueLogo {
+    height: 60px;
 }
 /* Bottom Navbar */
