@@ -1,7 +1,7 @@
 body{
     margin: 0px;
 }
-/* Navbar */
+/* Top Navbar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -31,4 +31,13 @@ li a:hover {
 .accountItems {
     float:right;
 }
-/* Navbar */
+/* Top Navbar */
+
+/* Bottom Navbar */
+.background {
+    background-image: url("./assets/Background.jpg");
+    height: 800px;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+/* Bottom Navbar */
